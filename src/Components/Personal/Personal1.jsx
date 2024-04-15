@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "../App.css";
-import bg2 from "../assets/bg2.png";
+
+import bg1 from "../../assets/bg1.png";
 
 function Personal1() {
   const [sliderValue, setSliderValue] = useState(0);
@@ -12,7 +12,7 @@ function Personal1() {
   return (
     <div
       id="background-component"
-      style={{ backgroundImage: `url(${bg2})` }}
+      style={{ backgroundImage: `url(${bg1})` }}
       className="bg-gradient-to-b from-[#98B8DD] to-white w-screen h-screen flex justify-center"
     >
       <div className="max-w-sm md:max-w-xl lg:max-w-2xl mt-44">

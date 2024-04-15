@@ -6,7 +6,12 @@
 
   position: relative;
 }
-
+#background-component {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 .text-box {
   position: absolute;
   top: 40%;

@@ -5,7 +5,7 @@ import Reward from "./pages/Reward";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Personal4 from "./Components/Personal/Personal4";
+import AllQues from "./Components/Personal/AllQues";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Route path="dashboard" element={<Dashboard />} />
       <Route path="login" element={<Login />} />
       <Route path="signup" element={<Signup />} />
-      <Route path="test" element={<Personal4 />} />
+      <Route path="test" element={<AllQues />} />
     </Routes>
   );
 }
